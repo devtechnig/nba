@@ -1,0 +1,36 @@
+[14-Jun-2024 10:01:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/qgavyqtf/public_html/php/php-mailer/src/PHPMailer.php:877
+Stack trace:
+#0 /home/qgavyqtf/public_html/php/php-mailer/src/PHPMailer.php(1936): PHPMailer\PHPMailer\PHPMailer->mailPassthru('you@domain.com', 'Quick question....', 'Name: Winston<b...', 'Date: Fri, 14 J...', '-fyou@domain.co...')
+#1 /home/qgavyqtf/public_html/php/php-mailer/src/PHPMailer.php(1664): PHPMailer\PHPMailer\PHPMailer->mailSend('Date: Fri, 14 J...', 'Name: Winston<b...')
+#2 /home/qgavyqtf/public_html/php/php-mailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/qgavyqtf/public_html/php/contact-form.php(94): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/qgavyqtf/public_html/php/php-mailer/src/PHPMailer.php on line 877
+[16-Jun-2024 13:53:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/qgavyqtf/public_html/php/php-mailer/src/PHPMailer.php:877
+Stack trace:
+#0 /home/qgavyqtf/public_html/php/php-mailer/src/PHPMailer.php(1936): PHPMailer\PHPMailer\PHPMailer->mailPassthru('you@domain.com', 'Quick question....', 'Name: Winston<b...', 'Date: Sun, 16 J...', '-fyou@domain.co...')
+#1 /home/qgavyqtf/public_html/php/php-mailer/src/PHPMailer.php(1664): PHPMailer\PHPMailer\PHPMailer->mailSend('Date: Sun, 16 J...', 'Name: Winston<b...')
+#2 /home/qgavyqtf/public_html/php/php-mailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/qgavyqtf/public_html/php/contact-form.php(94): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/qgavyqtf/public_html/php/php-mailer/src/PHPMailer.php on line 877
+[23-Oct-2024 08:20:55 UTC] PHP Warning:  Undefined array key "id" in /home/qgavyqtf/public_html/php/newsletter-subscribe.php on line 34
+[23-Oct-2024 08:20:56 UTC] PHP Warning:  require_once(tweet-php/TweetPHP.php): Failed to open stream: No such file or directory in /home/qgavyqtf/public_html/php/twitter-feed.php on line 8
+[23-Oct-2024 08:20:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'tweet-php/TweetPHP.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/qgavyqtf/public_html/php/twitter-feed.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qgavyqtf/public_html/php/twitter-feed.php on line 8
+[03-Nov-2024 15:24:30 UTC] PHP Warning:  Undefined array key "id" in /home/qgavyqtf/public_html/php/newsletter-subscribe.php on line 34
+[03-Nov-2024 15:24:31 UTC] PHP Warning:  require_once(tweet-php/TweetPHP.php): Failed to open stream: No such file or directory in /home/qgavyqtf/public_html/php/twitter-feed.php on line 8
+[03-Nov-2024 15:24:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'tweet-php/TweetPHP.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/qgavyqtf/public_html/php/twitter-feed.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qgavyqtf/public_html/php/twitter-feed.php on line 8
+[28-Mar-2025 13:13:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/qgavyqtf/public_html/php/php-mailer/src/PHPMailer.php:877
+Stack trace:
+#0 /home/qgavyqtf/public_html/php/php-mailer/src/PHPMailer.php(1936): PHPMailer\PHPMailer\PHPMailer->mailPassthru('you@domain.com', '=?us-ascii?Q?Hi...', 'Name: Mauricio ...', 'Date: Fri, 28 M...', '-fyou@domain.co...')
+#1 /home/qgavyqtf/public_html/php/php-mailer/src/PHPMailer.php(1664): PHPMailer\PHPMailer\PHPMailer->mailSend('Date: Fri, 28 M...', 'Name: Mauricio ...')
+#2 /home/qgavyqtf/public_html/php/php-mailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/qgavyqtf/public_html/php/contact-form.php(94): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/qgavyqtf/public_html/php/php-mailer/src/PHPMailer.php on line 877
